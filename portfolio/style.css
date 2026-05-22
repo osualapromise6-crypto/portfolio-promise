@@ -115,7 +115,7 @@ textarea {
   width: 22px;
   height: 2px;
   background: var(--text);
-  transition: transform 0.25s ease;
+  transition: transform 0.12s ease;
 }
 
 .menu-toggle .burger::before,
@@ -126,7 +126,7 @@ textarea {
   width: 100%;
   height: 2px;
   background: var(--text);
-  transition: transform 0.25s ease, top 0.25s ease, opacity 0.25s ease;
+  transition: transform 0.12s ease, top 0.12s ease, opacity 0.12s ease;
 }
 
 .menu-toggle .burger::before {
@@ -495,7 +495,7 @@ textarea {
     height: 100vh;
     width: min(320px, 80vw);
     transform: translateX(100%);
-    transition: transform 0.18s ease, opacity 0.18s ease;
+    transition: transform 0.12s ease, opacity 0.12s ease;
     opacity: 0;
     padding: 96px 22px 22px;
     border-radius: 24px 0 0 24px;
