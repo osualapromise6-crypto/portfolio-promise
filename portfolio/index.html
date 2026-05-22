@@ -1,73 +1,220 @@
 <!doctype html>
-<html>
-   <head>
-    <title>Promise/portfolio</title>
-    
-    <meta name="viewport" content="width=device-width,initial-scale=1.0/">
-    <link rel="stylesheet" href="style.css">
-   </head>
-   
-   <body>
-    <section id="home">
-        <div class="hero">
-    <img src="IMG-20251123-WA0219.jpg" width="270" height="300">
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Osuala Obioha Promise | Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="#home">Osuala Promise</a>
+        <button class="menu-toggle" aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="burger"></span>
+          <span class="visually-hidden">Toggle navigation</span>
+        </button>
+        <nav class="site-nav" id="main-nav">
+          <button class="menu-close" aria-label="Close menu">×</button>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
       </div>
-        
-        
-        <div class="hero-text">
-        <h1>Hi, i'm Osuala Obioha Promise</h1>
-        <p>Web developer & software engineering student</p> 
-        <a href="#projects">view my work</a>
+    </header>
+
+    <main>
+      <section id="home" class="hero-section">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <span class="eyebrow">Full-stack Web Developer</span>
+            <h1>Hi, I'm <strong>Osuala Obioha Promise</strong>.</h1>
+            <p>
+              I build clean, responsive web applications and user experiences using modern
+              tools like HTML, CSS, JavaScript, React, and Firebase.
+            </p>
+            <div class="hero-actions">
+              <a class="btn btn-primary" href="#projects">View my work</a>
+              <a class="btn btn-light" href="#contact">Contact me</a>
+            </div>
+          </div>
+
+          <div class="hero-card">
+            <div class="hero-image">
+              <img src="IMG-20251123-WA0219.jpg" alt="Osuala Obioha Promise" />
+            </div>
+            <div class="hero-stats">
+              <div>
+                <strong>6+</strong>
+                <span>Projects shipped</span>
+              </div>
+              <div>
+                <strong>5</strong>
+                <span>Skills mastered</span>
+              </div>
+            </div>
+          </div>
         </div>
-     
-        
-    </section>
+      </section>
 
-    <section id="about">
-        <h2>About me</h2>
-        <p>I'm a software engineering student passionate about building 
-            clean and responsive web applications using modern tools
-        </p>
-        
-    </section>
-
-    <section id="skills">
-        <h2>Skills</h2>
-        <u1>
-            <l1>HTML</l1> <br>
-            <l1>CSS</l1><br>
-            <l1>javascript</l1><br>
-            <l1>React</l1><br>
-            <l1>Firebase</l1><br>
-        </u1>
-    </section>
-    <section id="projects">
-    <h2>Projects</h2>
-    <div class="project">
-       <h3>my websites</h3>
-        <p>A web app for students to share post and images.</p>
-        <p> <strong>Tech:</strong>HTML,CSS,JS,Firebase</p>
-
-        <a href="https://osualapastries.netlify.app">business website</a><br>
-        <a href="https://studentaccommod8.netlify.app">Hostel website</a>
+      <section id="about" class="section-panel">
+        <div class="container section-grid">
+          <div>
+            <h2>About Me</h2>
+            <p>
+              I'm a software engineering student with a passion for creating polished web
+              experiences. I focus on responsive design, accessibility, and building real-world
+              applications with clean code.
+            </p>
+            <ul class="about-list">
+              <li>Web applications with React and vanilla JavaScript</li>
+              <li>Responsive UI with modern CSS</li>
+              <li>Realtime data and authentication using Firebase</li>
+            </ul>
+          </div>
+          <div class="about-cards">
+            <article class="info-card">
+              <h3>Education</h3>
+              <p>Software Engineering Student</p>
+            </article>
+            <article class="info-card">
+              <h3>Interest</h3>
+              <p>Web development, UX design, mobile-first apps</p>
+            </article>
+            <article class="info-card">
+              <h3>Goal</h3>
+              <p>Build modern products that solve real problems.</p>
+            </article>
+          </div>
         </div>
-        <div class="project">
-            <h3>Portfolio website</h3>
-            <p>My personal portfolio website</p>
-            
-            <p><strong>Tech:</strong>HTML,CSS</p>
-        
+      </section>
+
+      <section id="skills" class="section-panel section-alt">
+        <div class="container">
+          <h2>Skills</h2>
+          <div class="skill-grid">
+            <article class="skill-card">
+              <h3>HTML & CSS</h3>
+              <div class="skill-bar"><span style="width: 95%;"></span></div>
+            </article>
+            <article class="skill-card">
+              <h3>JavaScript</h3>
+              <div class="skill-bar"><span style="width: 88%;"></span></div>
+            </article>
+            <article class="skill-card">
+              <h3>React</h3>
+              <div class="skill-bar"><span style="width: 82%;"></span></div>
+            </article>
+            <article class="skill-card">
+              <h3>Firebase</h3>
+              <div class="skill-bar"><span style="width: 76%;"></span></div>
+            </article>
+            <article class="skill-card">
+              <h3>Version Control</h3>
+              <div class="skill-bar"><span style="width: 85%;"></span></div>
+            </article>
+          </div>
         </div>
+      </section>
 
-    </section>
-    <section id="contact">
-        <h2>Contact me</h2>
-        <p>Email: osualapromise6@gmail.com</p>
-        <p>github: https://github.com/osualapromise6-crypto</p>
-    </section>
+      <section id="projects" class="section-panel">
+        <div class="container">
+          <div class="section-heading">
+            <h2>Projects</h2>
+            <p>Selected work that demonstrates my frontend and full-stack capabilities.</p>
+          </div>
 
-    <footer>
-        <p>@2026 Osuala Obioha Promise</p>
+          <div class="project-grid">
+            <article class="project-card">
+              <span class="project-badge">Featured</span>
+              <h3>Bakery Website</h3>
+              <p>A polished brand site for a bakery with product highlights and smooth navigation.</p>
+              <p><strong>Tech:</strong> HTML, CSS, JavaScript, Firebase</p>
+              <a href="https://osualapastries.netlify.app" target="_blank" rel="noreferrer">View live</a>
+            </article>
+
+            <article class="project-card">
+              <h3>Hostel Booking Site</h3>
+              <p>A responsive accommodation site built to showcase rooms, amenities, and contact info.</p>
+              <p><strong>Tech:</strong> HTML, CSS, JavaScript</p>
+              <a href="https://studentaccommod8.netlify.app" target="_blank" rel="noreferrer">View live</a>
+            </article>
+
+            <article class="project-card">
+              <h3>Personal Portfolio</h3>
+              <p>A modern portfolio layout that highlights experience, projects, and contact details.</p>
+              <p><strong>Tech:</strong> HTML, CSS</p>
+              <a href="#home">Live preview</a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section-panel section-alt">
+        <div class="container contact-grid">
+          <div>
+            <h2>Contact</h2>
+            <p>
+              I’m available for freelance and internship opportunities. Send a message and I’ll
+              reply as soon as possible.
+            </p>
+            <ul class="contact-list">
+              <li><strong>Email:</strong> osualapromise6@gmail.com</li>
+              <li><strong>GitHub:</strong> <a href="https://github.com/osualapromise6-crypto" target="_blank" rel="noreferrer">osualapromise6-crypto</a></li>
+            </ul>
+          </div>
+          <form class="contact-form" action="mailto:osualapromise6@gmail.com" method="post" enctype="text/plain">
+            <label>
+              Your name
+              <input type="text" name="name" placeholder="Enter your name" required />
+            </label>
+            <label>
+              Email address
+              <input type="email" name="email" placeholder="Enter your email" required />
+            </label>
+            <label>
+              Message
+              <textarea name="message" rows="5" placeholder="Write your message" required></textarea>
+            </label>
+            <button class="btn btn-primary" type="submit">Send message</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>© 2026 Osuala Obioha Promise</p>
+        <p>Built with modern web design for a polished portfolio experience.</p>
+      </div>
     </footer>
-   </body>
+
+    <script>
+      const menuToggle = document.querySelector('.menu-toggle');
+      const menuClose = document.querySelector('.menu-close');
+      const mainNav = document.getElementById('main-nav');
+
+      const closeMenu = () => {
+        mainNav.classList.remove('nav-open');
+        menuToggle.classList.remove('open');
+        menuToggle.setAttribute('aria-expanded', 'false');
+      };
+
+      menuToggle.addEventListener('click', () => {
+        const isOpen = mainNav.classList.toggle('nav-open');
+        menuToggle.classList.toggle('open', isOpen);
+        menuToggle.setAttribute('aria-expanded', isOpen);
+      });
+
+      menuClose.addEventListener('click', closeMenu);
+
+      document.querySelectorAll('.site-nav a').forEach((link) => {
+        link.addEventListener('click', closeMenu);
+      });
+    </script>
+  </body>
 </html>
